@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table
+      border="1px"
+      cellspaceing="10px"
+      cellpadding="20px"
+      width="100%"
+      align="center"
+    >
+      <tr>
+        <th colspan="2">
+          <table cellspacing="50px" cellpadding="20px" align="center">
+            <td><a href="">Menu</a></td>
+            <td><a href="">Services</a></td>
+            <td><a href="">About</a></td>
+          </table>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <h1>COMPUTER TRAINING</h1>
+          <h2>Applicant Details</h2>
+          <form action="/action_page.php" method="post">
+            <label for="fname">First Name</label><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="David"
+            /><br />
+            <input
+              type="password"
+              id="fname"
+              name="fname"
+              placeholder="password"
+            /><br />
+            <label for="lname"> Last Name</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Isreal"
+            /><br />
+            <input
+              type="password"
+              id="lname"
+              name="lname"
+              placeholder="password"
+            /><br />
+
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+            <p></p>
+            <label for="D.O.B">Date of Birth</label><br />
+            <input
+              type="date"
+              id="date"
+              name="Date"
+              placeholder="MM/DD/YYYY"
+            /><br />
+
+            <label for="age">Age</label><br />
+            <select name="age" id="age">
+              <option value="15-20">15-20</option>
+              <option value="21-25">21-25</option>
+              <option value="26-30">26-30</option></select
+            ><br />
+
+            <label for="S.O">State of Origin</label><br />
+            <input
+              type="text"
+              id="State"
+              name="State"
+              placeholder="Lagos state"
+            />
+            <br />
+
+            <label for="address">Address</label><br />
+            <input type="text" id="address" name="address" value="" /><br />
+
+            <label for="education">Education Level</label><br />
+            <select name="education" id="education">
+              <option value="ssce">SSCE</option>
+              <option value="nd">ND</option>
+              <option value="hnd">HND</option>
+              <option value="bsc">B.Sc</option>
+              <option value="beng">B.Eng</option></select
+            ><br />
+
+            <label for="course">Courses</label><br />
+            <select name="course" id="course">
+              <option value="Full Stark Website Development">
+                Full Stark Website Development
+              </option>
+              <option value="Graphics and Animation">
+                Graphics and Animation
+              </option>
+              <option value="Desktop Publishing">Desktop Publishing</option>
+            </select>
+
+            <p></p>
+            <input type="submit" value="submit" /><br />
+            <p></p>
+            <textarea
+              name="reveiw"
+              id="reveiw"
+              cols="50"
+              rows="10"
+              placeholder="Reveiw"
+            ></textarea>
+          </form>
+        </td>
+      </tr>
+
+      <tr>
+        <td rowspan="2" height="500px" width="60%" align="right"></td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY FIRST WEBPAGE</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="icon" href="images/DAVID-CROWN-LOGO_2-removebg-preview.png">
+    <style>
+      body {
+        background-color:rgb(238, 252, 214);
+      }
+      main{
+        margin: 10px;
+      }
+      img {
+        width: 100px;
+        border-radius: 50px;
+        float: left;
+        margin-right: 20px;
+      }
+      em {
+        color: rgb(59, 119, 248);
+        font-style: normal;
+      }
+      li {
+        color: rgb(17, 17, 17);
+      }
+      video{
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid bg-warning" >
+      <h1>HOW TO BUILD A <em>WEB PAGE</em> FROM SCRASH TO FINISH</h1>
+      <img src="images/Dominion and Tolu.jpg" />
+      <p>@davidcrowndesigns</p>
+      <a href="about.html">About me</a>
+      <br>
+      <a href="images/Dominion and Tolu.jpg">My photo</a>
+      <h2>My name is David it's my pleasure to have you on this page</h2>
+      <a href="My company/about.html">more info</a>
+      <p>So let's get started</p>
+    </div>
+  </header>
+
+
+    <main>
+  <h2>What is &lt;HTML&gt;?</h2>
+    <p>
+      First and formost you need to understand the abbreviation <em>HTML</em>.
+      It simple means Hypertext Markup Language. It is used for the
+      skeletal/basis of a <strong>WEBPAGE</strong>, which includes the text majorly and the arrangement such as:
+      <li>Html tag</li>
+      <li>Head tag</li>
+      <li>Title tag</li>
+      <li>Body tag</li>      
+      <li>h1, e.t.c tag</li>
+
+      <!--Unorder list-->
+      <ul>
+        <li>Html tag</li>
+        <li>Head tag</li>
+        <li>Title tag</li>
+        <li>Body tag</li>      
+        <li>h1, e.t.c tag</li>
+      </ul>
+
+      <!--Order list-->
+      <ol>
+        <li>Html tag</li>
+        <li>Head tag</li>
+        <li>Title tag</li>
+        <li>Body tag</li>      <li>Html tag</li>
+        <li>h1, e.t.c tag</li>
+      </ol>
+
+      <p>Head:Title</p>
+      <p>Body:Heading, paragraphs, e.t.c</p>
+    </p>
+    <button onclick="comment()" style="background-color: salmon; font-size: medium; border-radius: 20px;">Click me</button>
+    <h1 id="greet">The Nigeria flag-nigeria</h1>
+    <img src="images/flag-nigeria.jpg" alt="">
+    <table border="1">
+        <tr>
+            <th>S/N</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>LENGHT</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>DAVE</td>
+            <td>20</td>
+            <td>15cm</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>MIKE</td>
+            <td>19</td>
+            <td>16cm</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>AYO</td>
+            <td>18</td>
+            <td>12c m</td>
+        </tr>
+    </table>
+
+
+    <table border="1" style="background-color: black;">
+      <th colspan="7" style="background-color: aqua;" class="text-center">JUNE</th>
+      <tr align="center" style="background-color: blanchedalmond;">
+          <th style="width: 100px; background-color: white;" class="border">SUNDAY</th>
+          <th style="width: 100px; background-color: blue;"  class="border">MONDAY</th>
+          <th style="width: 100px; background-color: red;"  class="border">TUESDAY</th>
+          <th style="width: 100px; background-color: green" class="border">WEDNESDAY</th>
+          <th style="width: 100px; background-color: yellow" class="border">THURSDAY</th>
+          <th style="width: 100px; background-color: indigo;" class="border">FRIDAY</th>
+          <th style="width: 100px; background-color: violet;" class="border">SATURDAY</th>
+      </tr>
+
+      <tr align="center" style="background-color: white;">
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+      </tr>
+
+      <tr align="center" style="background-color: yellow;">
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+      </tr>
+
+      <tr align="center" style="background-color: sandybrown;">
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+      </tr>
+
+      <tr align="center" style="background-color: greenyellow;">
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+    </tr>
+
+    <tr align="center" style="background-color: whitesmoke;">
+      <td>29</td>
+      <td>30</td>
+      <td>31</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+  </tr>
+  </table>
+  <form action="/action_page.php" method="post">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name = "fname" placeholder="mason"><br>
+    <input type="password" id="fname" name = "fname" value="mason" required><br>
+    <label for="lname"> Last Name</label><br>
+    <input type="text" id="lname" name = "lname" placeholder="mount"><br>
+    <input type="password" id="lname" name = "lname" value="mason"><br>
+    <label for="email">Email<div class="form-group">
+      <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="david@gmaail.com">
+      <small id="emailHelpId" class="form-text text-muted"></small>
+    </div></label><br>
+    <label for="phone">Phone: </label>
+    <input type="tel" name="phone" id="phone" placeholder="+2348138380647" minlength="14" ><br>
+
+    <input type="radio" id="male" name = "gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name = "gender" value="female">
+    <label for="female">Female</label>
+    <p></p>
+    <h2>Sales</h2>
+    <input type="checkbox" id="troser" name = "troser" >
+    <label for="troser">Troser</label><br>
+
+    <input type="checkbox" id="shirt" name = "shirt" >
+    <label for="shirt">Shirt</label><br>
+
+    <input type="checkbox" id="skirt" name = "skirt" >
+    <label for="skirt">Skirt</label><br>
+    <br>
+    <label for="quantity">Quantity</label><br>
+    <input type="number" name="quantity" id="quantity" value="1" min="0" max="10">
+    <br><br>
+    <Label for="payment">Payment:</Label>
+    <select name="payment" id="">
+      <option value="visa">Visa</option>
+      <option value="mastercard">Mastercard</option>
+      <option value="giftcard">Giftcard</option>
+    </select>
+    <i class="fa fa-paypal" aria-hidden="true"></i>
+    <i class="fa fa-cc-visa" aria-hidden="true"></i>
+    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+
+    <p></p>
+    <input type="reset">
+    <input type="submit" value="submit"><br>
+    <p>Comment</p>
+    <textarea name="" id="reveiw" cols="10" rows="2" minlength="10" required></textarea><br>
+    <label for="file">File: </label>
+    <input type="file" id="file">
+  </form>
+ 
+ 
+  <!-- GROUP TOGETHER HTML -->
+  <!-- <span> inline container to group element for styling purposes  -->
+  <!-- <div> block container to group element for styling purposes  -->
+
+  <h2><span style="background-color: tomato;">This is a span title</span></h2>
+  <h2><div style="background-color: lightgreen;">This is a div title</div></h2>
+
+  <p><span style="background-color: tomato;">This is a span sentence</span></p>
+  <p><div style="background-color: lightgreen;">This is a div sentence</div></p>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quae? <span style="background-color: tomato;">Doloribus, enim magni fuga reiciendis quibusdam quisquam tenetur neque minima asperiores nesciunt officiis corrupti nisi animi fugit! Possimus, facilis ipsa.</span></p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quae? <div style="background-color: lightgreen;">Doloribus, enim magni fuga reiciendis quibusdam quisquam tenetur neque minima asperiores nesciunt officiis corrupti nisi animi fugit! Possimus, facilis ipsa.</div></p>
+  
+
+  <p>Elevation Worship</p>
+  <audio controls autoplay muted src="music/Elevation_Worship_-_Praise_CeeNaija.com_.mp3"></audio>
+  <br>
+  <p>How to Remove Shortcut Virus From Pendrive - USB Drive.</p>
+  <a href="http://google.com" target="_blank" rel="noopener noreferrer"><video controls type="video/mp4" src="video/How to Remove Shortcut Virus From Pendrive - USB Drive.mp4"></video></a>
+</main>
+
+  <footer style="background-color: goldenrod;">
+    <hr>
+    <h4>Author: <b>David Crown</b></h4>
+    <p>&copy; 2023</p>
+    <small>Contact: <a href="mailto:adelesidavid@gmail.com">adelesidavid@gmail.com</a></small>
+  </footer>
+
+  <script>
+    function comment(){
+      document.getElementById("greet").innerHTML =  "<marquee> Thank you for coming. </marquee>" ;
+    }
+  </script>
+  </body>
+</html>
